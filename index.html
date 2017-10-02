@@ -9,6 +9,12 @@
             font-size: 22px;
             box-sizing: border-box;
         }
+        h1 {
+            font-weight: 900;
+        }
+        h2 {
+            font-weight: 800;
+        }
         p {
             line-height: 32px;
         }
@@ -28,15 +34,24 @@
                 margin-top: 150px;
         }
         div.pics {
-                display: grid;
+/*                 display: grid;
                 grid-template-columns: 425px 425px;
-                grid-column-gap: 50px;
+                grid-column-gap: 50px; */
         }
         div.pics img {
             width: 100%;
             height: auto;
             margin-bottom: 50px;
+            margin-right: 50px;
+            float: left;
         }
+        @media screen and (max-width: 768px) {
+            div.right {
+                width: 100%;
+                float: none;
+            }
+        }
+            
     </style>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
@@ -49,7 +64,7 @@
         web designer</br>
     </h2>
     <p>currently a digital unicorn at <a href="http://www.xequals.co.nz">xequals.co.nz</a></br>
-    design@lauramunro.nz</p>
+    laura@xequals.co.nz</p>
     <p><a href="http://www.meetup.com/wellingtoncss">css &lt;3</a></p>
     </div>
     <div class="right">
