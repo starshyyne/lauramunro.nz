@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:400,800,900");
 body {
   padding: 50px;
-  font-size: 22px; }
+  font-size: 18px; }
+  @media (min-width: 0) and (max-width: 768px) {
+    body {
+      padding: 30px; } }
 
 div.left {
   max-width: 400px;
@@ -33,14 +36,26 @@ div.pics {
       -ms-flex-pack: justify;
           justify-content: space-between;
   max-width: 860px; }
-  div.pics a {
-    display: block;
-    float: left; }
+  div.pics figure {
+    margin: 0 0 40px 0; }
+    @media (min-width: 1080px) {
+      div.pics figure {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 1 50%;
+                flex: 0 1 50%;
+        padding-right: 40px;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box; }
+        div.pics figure:hover figcaption {
+          opacity: 1; }
+        div.pics figure figcaption {
+          opacity: 0;
+          -webkit-transition: 0.2s ease opacity;
+          transition: 0.2s ease opacity; } }
   div.pics img {
     width: 400px;
     max-width: 100%;
-    height: auto;
-    margin-bottom: 50px; }
+    height: auto; }
 
 body {
   font-family: "Work Sans", sans-serif; }

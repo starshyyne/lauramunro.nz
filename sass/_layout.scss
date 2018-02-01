@@ -1,6 +1,10 @@
 body {
     padding: 50px;
-    font-size: 22px;
+    // font-size: 22px;
+    font-size: 18px;
+    @include breakpoint($mobile) {
+        padding: 30px;
+    }
 }
 
 div.left {
@@ -30,14 +34,24 @@ div.pics {
     flex-wrap: wrap;
     justify-content: space-between;
     max-width: 860px;
-    a {
-        display: block;
-        float: left;
+    figure {
+        margin: 0 0 40px 0;
+        @include breakpoint($desktop) {
+            flex: 0 1 50%;
+            padding-right: 40px;
+            box-sizing: border-box;
+            &:hover figcaption {
+                opacity: 1;
+            }
+            figcaption {
+                opacity: 0;
+                transition: 0.2s ease opacity;
+            }
+        }
     }
     img {
         width: 400px;
         max-width: 100%;
         height: auto;
-        margin-bottom: 50px;
     }
 }
