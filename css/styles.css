@@ -52,16 +52,32 @@ div.pics {
           opacity: 0;
           -webkit-transition: 0.2s ease opacity;
           transition: 0.2s ease opacity; } }
+    @media (min-width: 1080px) {
+      div.pics figure.large {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 1 100%;
+                flex: 0 1 100%;
+        padding-right: 40px;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box; }
+        div.pics figure.large figcaption {
+          margin-top: 40px;
+          opacity: 1; } }
+    div.pics figure.large img {
+      width: auto; }
   div.pics img {
     width: 400px;
     max-width: 100%;
-    height: auto; }
+    height: auto;
+    border: 1px solid #ececec; }
 
 body {
   font-family: "Work Sans", sans-serif; }
 
 h1 {
   font-weight: 900; }
+  h1 a {
+    text-decoration: none; }
 
 h2 {
   font-weight: 800; }

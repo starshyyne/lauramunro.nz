@@ -48,10 +48,25 @@ div.pics {
                 transition: 0.2s ease opacity;
             }
         }
+        &.large {
+            @include breakpoint($desktop) {
+                flex: 0 1 100%;
+                padding-right: 40px;
+                box-sizing: border-box;
+                figcaption {
+                    margin-top: 40px;
+                    opacity: 1;
+                }
+            }
+            img {
+                width: auto;
+            }
+        }
     }
     img {
         width: 400px;
         max-width: 100%;
         height: auto;
+        border: 1px solid #ececec;
     }
 }
