@@ -20,7 +20,8 @@ gulp.task('browser-sync', function() {
         injectChanges: true,
         server: true
     });
-    gulp.watch("./sass/**/*.scss", ['sass']).on('change', browserSync.reload);
+    gulp.watch("./sass/**/*.scss", ['sass']);
+    gulp.watch(['./css/styles.css']).on('change', browserSync.reload);
 });
 
 gulp.task('sass', function () {

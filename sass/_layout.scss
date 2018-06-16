@@ -1,9 +1,12 @@
 body {
-    padding: 50px;
+    padding: 50px 50px 100px 50px;
     font-size: 18px;
     margin: 0px;
     @include breakpoint($mobile) {
         padding: 30px;
+    }
+    div:last-child {
+        clear:both;
     }
 }
 
@@ -24,9 +27,9 @@ div.left {
 
 div.right {
     width: 1000px;
-    width: calc(100% - 450px);
+    width: calc(100% - 405px);
     float: right;
-    margin-top: 150px;
+    margin-top: 122px;
     @include breakpoint($mobile) {
         margin-top: 0px;
         width: 100%;
