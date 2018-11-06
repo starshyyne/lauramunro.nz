@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Portfolio" }}</h2>
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li class="post">
+          {%- if post.imageUrl -%}
+            <a class="thumbnail" href="{{ post.websiteUrl }}">
+              <img src="/images/{{ post.imageUrl }}" title="{{ post.title }}"/>
+            </a>
+          {%- endif -%}
+        <span class="title">{{ post.title | escape }}</span>
+        <span class="role">{{ post.role }}</span>
+      </li>
+      {%- endfor -%}
+    </ul>
+
+  {%- endif -%}
+
+</div>

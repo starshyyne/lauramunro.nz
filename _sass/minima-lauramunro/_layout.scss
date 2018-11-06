@@ -1,0 +1,27 @@
+.page-wrapper {
+    padding: 20px;
+    @include breakpoint($tablet) {
+        display: flex;
+        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 300px auto;
+        grid-template-areas:
+            "navigation main"
+            "navigation main"
+            "footer footer";
+        header {
+            flex: 0 1 300px;
+            padding-right: 50px;
+            grid-area: navigation;
+        }
+        main {
+            margin-top: 65px;
+            flex-grow: 1;
+            grid-area: main;
+        }
+        footer {
+            flex: 1 0 100%;
+            grid-area: footer;
+        }
+    }
+}

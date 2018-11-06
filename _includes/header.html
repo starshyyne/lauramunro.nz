@@ -1,0 +1,25 @@
+<header class="site-header" role="banner">
+
+  <div class="wrapper">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    <h1><a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></h1>
+
+    <h3>{{ site.description }}</h3>
+
+    <p>currently a digital unicorn at xequals.co.nz <br />
+        laura@xequals.co.nz</p>
+
+    <nav class="main-menu" role="navigation">
+      <ul class="nav">
+        {% for menu in site.data.menu %}
+            <li>
+                <a href="{{ site.baseurl }}{{ menu.href }}">{{ menu.title }}</a>
+            </li>
+        {% endfor %}
+      </ul>
+    </nav>
+
+
+  </div>
+</header>
