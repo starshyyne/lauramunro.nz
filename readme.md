@@ -32,3 +32,6 @@ By default, Jekyll will install the default theme Minima. You can download the s
 - Make a change to a template file to test for changes
 - Run $ bundle exec jekyll serve
 - Changes will appear!
+
+## Publishing on GitHub Pages
+GitHub pages requires the github-pages plugin to be added both to the config.yml file, and the gemfile. Remember to run "bundle update" after making changes to these files. After publishing to GitHub you make get import errors with the sass setup - I had to copy over the breakpoint stylesheets so GitHub can compile the sass correctly, which can be downloaded from their repo: https://github.com/at-import/breakpoint
