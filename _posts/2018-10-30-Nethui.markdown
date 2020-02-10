@@ -3,7 +3,7 @@ layout: post
 title:  "NetHui"
 date:   2018-10-30 17:26:13 +1300
 categories: portfolio
-role: Site builder, designer, front end developer
+role: Design & development
 websiteUrl: http://2018.nethui.nz/
 imageUrl: nethui-400.png
 ---
