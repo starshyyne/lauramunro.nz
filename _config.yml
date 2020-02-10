@@ -16,7 +16,7 @@
 title: Laura Munro
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  front end developer / digital designer / drupal site builder
+  designer / developer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
