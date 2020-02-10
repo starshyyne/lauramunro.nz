@@ -3,7 +3,7 @@ layout: post
 title:  "New Zealand Nutrition Foundation"
 date:   2018-10-30 10:26:13 +1300
 categories: portfolio
-role: Site builder, front end developer
+role: Front end development
 websiteUrl: https://nutritionfoundation.org.nz/
 imageUrl: nznf-400.png
 ---
