@@ -3,7 +3,7 @@ layout: post
 title:  "Policy"
 date:   2018-10-30 19:26:13 +1300
 categories: portfolio
-role: Front end developer
+role: Front end development
 websiteUrl: http://policy.thespinoff.co.nz/
 imageUrl: policy-400.png
 ---
