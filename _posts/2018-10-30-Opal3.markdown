@@ -3,7 +3,7 @@ layout: post
 title:  "Opal3"
 date:   2018-10-30 10:26:13 +1300
 categories: portfolio
-role: Designer, front end developer
+role: Design & development
 websiteUrl: http://www.opal3.com/
 imageUrl: opal3-400.png
 ---
