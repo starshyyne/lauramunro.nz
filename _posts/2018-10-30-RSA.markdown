@@ -3,7 +3,7 @@ layout: post
 title:  "RSA Website"
 date:   2018-10-30 18:26:13 +1300
 categories: portfolio
-role: Site builder, front end developer
+role: Front end development
 websiteUrl: https://www.rsa.org.nz
 imageUrl: rsa-400.png
 ---
