@@ -3,7 +3,7 @@ layout: post
 title:  "Bones Drupal Theme"
 date:   2019-06-25 16:26:13 +1300
 categories: portfolio
-role: Front end developer
+role: Design & development
 websiteUrl: https://bones.xequals.co.nz
 imageUrl: bones-400.png
 ---
