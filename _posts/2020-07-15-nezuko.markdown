@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Inverted World book cover"
+date:   2020-07-15 11:59:13 +1300
+categories: portfolio
+role: Digital drawing, fan art
+websiteUrl: https://www.behance.net/gallery/100688531/Demon-Slayer-Nezuko
+imageUrl: demonslayer-400.png
+---
+ 
