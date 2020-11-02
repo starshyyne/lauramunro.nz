@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Tūī"
+date:   2020-11-02 12:59:13 +1300
+categories: portfolio
+role: Digital painting
+websiteUrl: https://www.behance.net/gallery/107095307/Tui
+imageUrl: tui-400.png 
+---
