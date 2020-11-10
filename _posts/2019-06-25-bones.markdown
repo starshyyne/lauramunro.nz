@@ -6,5 +6,6 @@ categories: portfolio
 role: Design & development
 websiteUrl: https://bones.xequals.co.nz
 imageUrl: bones-400.png
+tags: ["Design & front end development"]
 ---
 Just another test

@@ -9,22 +9,31 @@ layout: default
 
   {{ content }}
 
-  {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Portfolio" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li class="post">
-          {%- if post.imageUrl -%}
-            <a class="thumbnail" href="{{ post.websiteUrl }}">
-              <img src="/images/{{ post.imageUrl }}" title="{{ post.title }}"/>
-            </a>
-          {%- endif -%}
-        <span class="title">{{ post.title | escape }}</span>
-        <span class="role">{{ post.role }}</span>
-      </li>
-      {%- endfor -%}
-    </ul>
+     <div class="post-container">
+    {% assign tags =  site.posts | map: 'tags' | uniq %}
+      {% for tag in tags %}
+      
+      <div class="post-category">
+      <h3>{{ tag }}</h3>
 
-  {%- endif -%}
+      <ul class="post-list">
+        {% for post in site.posts %}
+          {% if post.tags contains tag %}
+          <li class="post">
+              {%- if post.imageUrl -%}
+                <a class="thumbnail" href="{{ post.websiteUrl }}">
+                  <img src="/images/{{ post.imageUrl }}" title="{{ post.title }}"/>
+                </a>
+              {%- endif -%}
+            <span class="title">{{ post.title | escape }}</span>
+          </li>
+          {%- endif -%}
+        {%- endfor -%}
+      </ul>
+    </div>
+ 
+    {%- endfor -%}
+ </div>
 
 </div>

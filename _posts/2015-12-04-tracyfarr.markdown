@@ -6,5 +6,6 @@ categories: portfolio
 role: Design & development
 websiteUrl: https://www.behance.net/gallery/32208791/Tracy-Farr-Author-Website
 imageUrl: tracy_farr.jpg
+tags: ["Design & front end development"]
 ---
  

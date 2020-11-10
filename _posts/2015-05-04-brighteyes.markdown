@@ -6,5 +6,6 @@ categories: portfolio
 role: Design
 websiteUrl: https://www.behance.net/gallery/25899911/Bright-Eyes-Album-Booklet
 imageUrl: bright_eyes.jpg
+tags: ["Design"]
 ---
  

@@ -6,5 +6,6 @@ categories: portfolio
 role: Design
 websiteUrl: https://www.behance.net/gallery/25323631/Inverted-World-Redesign
 imageUrl: inverted_world.jpg
+tags: ["Design"]
 ---
  

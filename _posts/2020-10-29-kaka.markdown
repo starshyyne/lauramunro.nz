@@ -6,5 +6,6 @@ categories: portfolio
 role: Digital painting
 websiteUrl: https://www.behance.net/gallery/106893217/Kaka
 imageUrl: kaka-400.png 
+tags: ["Digital drawing"]
 ---
  

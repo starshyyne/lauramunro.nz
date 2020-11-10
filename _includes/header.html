@@ -5,17 +5,11 @@
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <h1><a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></h1>
 
-    <h3>{{ site.description }}</h3>
-    <nav class="main-menu" role="navigation">
-      <ul class="nav">
-        {% for menu in site.data.menu %}
-            <li>
-                <a href="{{ site.baseurl }}{{ menu.href }}">{{ menu.title }}</a>
-            </li>
-        {% endfor %}
-      </ul>
-    </nav>
+    <h2>{{ site.description }}</h2>
 
+    <p>From creating beautiful illustrations to intuitive digital experiences, I am driven by my creative mind, high personal standards, and attention to detail.</p>
+
+    <p>A creative jack of all trades, I enjoy graphic and web design, illustration and web development. I love writing clean and concise CSS that looks gorgeous and functions seamlessly on every browser and device. I'm available for freelance or contract work, please contact me through either <a href="https://www.linkedin.com/in/lauramunro1/" target="_blank">LinkedIn</a> or <a href="https://www.behance.net/lauraannemunro" target="_blank">Behance.</a></p>
 
   </div>
 </header>

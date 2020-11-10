@@ -7,6 +7,17 @@ img {
   vertical-align: middle;
 }
 
-.site-title {
-    text-transform: lowercase;
+
+.ext {
+    &:after {
+        content: '';
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-image: url('../assets/ext-link.svg');
+        background-size: contain;
+        margin-left: 5px;
+        position: relative;
+        top: 2px;
+    }
 }
