@@ -6,5 +6,6 @@ categories: portfolio
 role: Digital drawing
 websiteUrl: https://www.behance.net/gallery/100688531/Demon-Slayer-Nezuko
 imageUrl: demonslayer-400.png
+tags: ["Digital drawing"]
 ---
  

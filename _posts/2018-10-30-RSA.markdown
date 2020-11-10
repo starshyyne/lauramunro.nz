@@ -6,5 +6,6 @@ categories: portfolio
 role: Front end development
 websiteUrl: https://www.rsa.org.nz
 imageUrl: rsa-400.png
+tags: ["Front end development"]
 ---
 Just a test

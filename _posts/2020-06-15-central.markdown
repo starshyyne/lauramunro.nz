@@ -6,5 +6,6 @@ categories: portfolio
 role: Front end developer
 websiteUrl: https://central.xero.com/s/
 imageUrl: central-400.png
+tags: ["Front end development"]
 ---
  
