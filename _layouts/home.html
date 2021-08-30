@@ -11,29 +11,20 @@ layout: default
 
     <h2 class="post-list-heading">{{ page.list_title | default: "Portfolio" }}</h2>
      <div class="post-container">
-    {% assign tags =  site.posts | map: 'tags' | uniq %}
-      {% for tag in tags %}
-      
-      <div class="post-category">
-      <h3>{{ tag }}</h3>
-
       <ul class="post-list">
         {% for post in site.posts %}
-          {% if post.tags contains tag %}
           <li class="post">
               {%- if post.imageUrl -%}
-                <a class="thumbnail" href="{{ post.websiteUrl }}">
+                <a class="thumbnail" href="{{ post}}">
                   <img src="/images/{{ post.imageUrl }}" title="{{ post.title }}"/>
                 </a>
               {%- endif -%}
-            <span class="title">{{ post.title | escape }}</span>
+            <h3>{{ post.title | escape }}</h3>
+            <p>{{ post.content | escape }}</p>
           </li>
-          {%- endif -%}
         {%- endfor -%}
       </ul>
     </div>
- 
-    {%- endfor -%}
- </div>
+
 
 </div>

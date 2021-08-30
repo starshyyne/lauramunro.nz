@@ -45,16 +45,16 @@
             }
         }
     }
-    .title {
-        display: inline-block;
-        margin-bottom: 0;
-        opacity: 0;
-        transition: 0.3s ease all;
-    }
-    &:hover {
-        .title {
-            opacity: 1;
-        }
-    }
+    // .title {
+    //     display: inline-block;
+    //     margin-bottom: 0;
+    //     opacity: 0;
+    //     transition: 0.3s ease all;
+    // }
+    // &:hover {
+    //     .title {
+    //         opacity: 1;
+    //     }
+    // }
 }
 

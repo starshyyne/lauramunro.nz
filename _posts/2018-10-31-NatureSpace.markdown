@@ -8,4 +8,4 @@ websiteUrl: https://www.naturespace.org.nz/
 imageUrl: naturespace-400.png
 tags: ["Design & front end development"]
 ---
-Just another test
+Nature Space was funded by the New Zealand department of conservation to connect different conservation groups accross New Zealand. I was the designer on a refresh of the website, and also worked as the front end developer to implement the design changes to the Drupal 7 site.

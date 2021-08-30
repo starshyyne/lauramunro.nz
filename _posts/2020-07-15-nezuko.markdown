@@ -9,3 +9,4 @@ imageUrl: demonslayer-400.png
 tags: ["Digital drawing"]
 ---
  
+A digital drawing made in Krita from the Anime “Demon Slayer”
