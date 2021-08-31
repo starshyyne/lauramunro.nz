@@ -24,7 +24,7 @@ layout: default
           {%- endif -%}
           <div>
             <h3>{{ post.title | escape }}</h3>
-            <p>{{ post.content | escape }}</p>
+            {{ post.content }}
           </div>
       </div>
     {%- endfor -%}
