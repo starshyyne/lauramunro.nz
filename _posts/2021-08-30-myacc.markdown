@@ -6,6 +6,7 @@ categories: portfolio
 role: Design
 websiteUrl: https://my.acc.co.nz/
 imageUrl: MyACC.png 
+imageAlt: A screenshot of the homepage of MyACC which welcomes the client and shows a timeline of events
 tags: ["Design"]
 home: true
 ---

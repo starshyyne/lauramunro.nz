@@ -6,6 +6,7 @@ categories: portfolio
 role: Digital painting
 websiteUrl: https://www.behance.net/gallery/107095307/Tui
 imageUrl: tui-400.png 
+imageAlt: A Tui is drawn on a branch, looking directly at the viewer
 tags: ["Digital drawing"]
 home: true
 ---

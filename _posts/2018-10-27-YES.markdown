@@ -6,7 +6,8 @@ categories: portfolio
 role: Design
 websiteUrl: http://youngenterprise.org.nz/
 imageUrl: yes-400.png
+imageAlt: A poster that uses icons and a flow chat to demonstate the agile process
 tags: ["Design"]
 home: true
 ---
-Just a test
+A poster design to demonstrate an agile workflow for a startup company

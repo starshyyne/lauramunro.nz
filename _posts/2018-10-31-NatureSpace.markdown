@@ -4,8 +4,9 @@ title:  "Nature Space"
 date:   2018-10-31 10:26:13 +1300
 categories: portfolio
 role: Design & development
-websiteUrl: https://www.naturespace.org.nz/
+websiteUrl: https://web.archive.org/web/20210309171948/https://www.naturespace.org.nz/
 imageUrl: naturespace-400.png
+imageAlt: A website design with photography of volunteers
 tags: ["Design & front end development"]
 home: true
 ---

@@ -6,6 +6,7 @@ categories: portfolio
 role: Digital drawing
 websiteUrl: https://www.behance.net/gallery/100688531/Demon-Slayer-Nezuko
 imageUrl: demonslayer-400.png
+imageAlt: Nezuko the main character of the series is drawn sleeping on her side with her black and red hair strewn about her
 tags: ["Digital drawing"]
 home: true
 ---
