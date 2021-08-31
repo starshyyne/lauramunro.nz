@@ -28,9 +28,22 @@ header .wrapper {
         span {
             display: none;
         }
+        svg {
+            fill: black;
+            transition: 0.5s ease all;
+            &:hover {
+            fill: rgba(238, 97, 251, 0.5);
+            }
+        }
+        
     }
     .mail {
         grid-area: mail;
+        color: inherit;
+        transition: 0.5s ease all;
+        &:hover {
+          color: rgba(238, 97, 251, 0.5);
+        }
     }
 }
 
@@ -248,9 +261,17 @@ footer {
             color: white;
         }
     }
-    .linkedin {
+    h1 a:hover {
+        color: #F7B1FD;
+    }
+    header .wrapper .linkedin {
         svg {
             fill: white;
+        }
+        &:hover {
+            svg {
+                fill: rgba(193, 0, 163, 0.5);
+            }
         }
     }
     .about,

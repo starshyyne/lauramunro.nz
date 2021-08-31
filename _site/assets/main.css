@@ -14,7 +14,10 @@ header .wrapper { display: grid; grid-template-areas: "h1 linkedin" "mail mail";
 header .wrapper h1 { grid-area: h1; }
 header .wrapper .linkedin { grid-area: linkedin; margin-left: auto; }
 header .wrapper .linkedin span { display: none; }
-header .wrapper .mail { grid-area: mail; }
+header .wrapper .linkedin svg { fill: black; transition: 0.5s ease all; }
+header .wrapper .linkedin svg:hover { fill: rgba(238, 97, 251, 0.5); }
+header .wrapper .mail { grid-area: mail; color: inherit; transition: 0.5s ease all; }
+header .wrapper .mail:hover { color: rgba(238, 97, 251, 0.5); }
 
 .about { background: rgba(238, 97, 251, 0.5); padding-bottom: 120px; position: relative; }
 @media (min-width: 600px) { .about { padding-bottom: 160px; } }
@@ -59,7 +62,9 @@ footer { text-align: center; padding: 30px; }
 
 @media (prefers-color-scheme: dark) { body { color: white; background-color: #1e1e1e; }
   body a { color: white; }
-  .linkedin svg { fill: white; }
+  h1 a:hover { color: #F7B1FD; }
+  header .wrapper .linkedin svg { fill: white; }
+  header .wrapper .linkedin:hover svg { fill: rgba(193, 0, 163, 0.5); }
   .about, .portfolio .post:nth-of-type(4), .portfolio .post:nth-of-type(5) { background: rgba(193, 0, 163, 0.5); }
   .portfolio h2, .portfolio .post:nth-of-type(1), .portfolio .post:nth-of-type(8), .portfolio .post:nth-of-type(9) { background: rgba(44, 113, 244, 0.5); }
   .talks, .portfolio .post:nth-of-type(2), .portfolio .post:nth-of-type(3), .portfolio .post:nth-of-type(6), .portfolio .post:nth-of-type(7) { background-color: rgba(132, 47, 255, 0.5); } }
@@ -67,7 +72,8 @@ body { font-family: "Work Sans", sans-serif; font-size: 18px; }
 
 h1 { font-weight: 900; font-size: 46px; }
 @media (min-width: 600px) { h1 { font-size: 56px; } }
-h1 a { text-decoration: none; }
+h1 a { text-decoration: none; color: inherit; transition: 0.5s ease color; }
+h1 a:hover { color: rgba(238, 97, 251, 0.5); }
 
 h2 { font-weight: 800; font-size: 32px; }
 @media (min-width: 600px) { h2 { font-size: 42px; } }
@@ -85,3 +91,12 @@ ul li { line-height: 32px; }
 h4 + ul { margin-top: -1em; }
 
 p + ul { margin-top: -1em; }
+
+@media (prefers-color-scheme: dark) { body { color: white; background-color: #1e1e1e; }
+  body a { color: white; }
+  h1 a:hover, header .wrapper .mail:hover { color: #F7B1FD; }
+  header .wrapper .linkedin svg { fill: white; }
+  header .wrapper .linkedin:hover svg { fill: #F7B1FD; }
+  .about, .portfolio .post:nth-of-type(4), .portfolio .post:nth-of-type(5) { background: rgba(193, 0, 163, 0.5); }
+  .portfolio h2, .portfolio .post:nth-of-type(1), .portfolio .post:nth-of-type(8), .portfolio .post:nth-of-type(9) { background: rgba(44, 113, 244, 0.5); }
+  .talks, .portfolio .post:nth-of-type(2), .portfolio .post:nth-of-type(3), .portfolio .post:nth-of-type(6), .portfolio .post:nth-of-type(7) { background-color: rgba(132, 47, 255, 0.5); } }

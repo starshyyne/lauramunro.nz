@@ -6,15 +6,18 @@ body {
 h1 {
   font-weight: 900;
   font-size: 46px;
-  // line-height: 52px;
 
   @include breakpoint($tablet) {
     font-size: 56px;
-    // line-height: 64px;
   }
 
   a {
       text-decoration: none;
+      color: inherit;
+      transition: 0.5s ease color;
+      &:hover {
+        color: rgba(238, 97, 251, 0.5);
+      }
   }
 }
 
