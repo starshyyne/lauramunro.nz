@@ -7,33 +7,40 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
+  {% include about.html %}
+
   {{ content }}
 
-    <h2 class="post-list-heading">{{ page.list_title | default: "Portfolio" }}</h2>
-     <div class="post-container">
-    {% assign tags =  site.posts | map: 'tags' | uniq %}
-      {% for tag in tags %}
-      
-      <div class="post-category">
-      <h3>{{ tag }}</h3>
+  <div class="portfolio">
+    <h2>Portfolio</h2>
 
-      <ul class="post-list">
-        {% for post in site.posts %}
-          {% if post.tags contains tag %}
-          <li class="post">
-              {%- if post.imageUrl -%}
-                <a class="thumbnail" href="{{ post.websiteUrl }}">
-                  <img src="/images/{{ post.imageUrl }}" title="{{ post.title }}"/>
-                </a>
-              {%- endif -%}
-            <span class="title">{{ post.title | escape }}</span>
-          </li>
+    <div class="posts">
+    {% for post in site.posts %}
+      <div class="post">
+          {%- if post.imageUrl -%}
+            <a class="thumbnail" href="{{ post.websiteUrl }}">
+              <img src="/images/{{ post.imageUrl }}" title="{{ post.title }}" alt="{{ post.imageAlt }}"/>
+            </a>
           {%- endif -%}
-        {%- endfor -%}
-      </ul>
-    </div>
- 
+          <div>
+            <h3>{{ post.title | escape }}</h3>
+            {{ post.content | escape }}
+          </div>
+      </div>
     {%- endfor -%}
- </div>
+    </div>
+  </div>
+
+  <div class="talks">
+    <h2>Recorded talks</h2>    
+    <div class="talk">
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/j3cnnfGk_78" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <h3>The black dog can code too - DrupalSouth 2018</h3>
+    </div>
+    <div class="talk">
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kPAsB6iRjhM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <h3>Theming Drupal in 2017: A New Hope - DrupalSouth 2017</h3>
+    </div>
+  </div>
 
 </div>

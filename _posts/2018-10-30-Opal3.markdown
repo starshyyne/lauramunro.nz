@@ -4,8 +4,10 @@ title:  "Opal3"
 date:   2018-10-30 10:26:13 +1300
 categories: portfolio
 role: Design & development
-websiteUrl: http://www.opal3.com/
+websiteUrl: https://web.archive.org/web/20190124103022/http://www.opal3.com/
 imageUrl: opal3-400.png
+imageAlt: The website headline reads 'Reporting made easy' and highlights some of the products clients including NZ local councils
 tags: ["Design & front end development"]
+home: true
 ---
-Just a test
+A reporting tool for business and government. I was the designer on a refresh of the website, and also built the front-end Opal3 website using Drupal. 

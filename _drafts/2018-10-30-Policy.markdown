@@ -7,5 +7,6 @@ role: Front end development
 websiteUrl: http://policy.thespinoff.co.nz/
 imageUrl: policy-400.png
 tags: ["Front end development"]
+published: false
 ---
 Just a test

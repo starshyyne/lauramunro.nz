@@ -6,6 +6,8 @@ categories: portfolio
 role: Design
 websiteUrl: https://www.behance.net/gallery/25323631/Inverted-World-Redesign
 imageUrl: inverted_world.jpg
+imageAlt: A book cover design using stylized map contour lines 
 tags: ["Design"]
+home: true
 ---
- 
+Is a science-fiction novel by Christopher Priest. I was inspired to design my own version of the cover from the story. 
