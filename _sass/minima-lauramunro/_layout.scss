@@ -106,6 +106,9 @@ header,
                 flex-shrink: 0;
                 margin-right: 30px;
             }
+            h3 {
+                margin-top: 0px;
+            }
         }
         @include breakpoint($desktop) {
             margin-right: 0px;
