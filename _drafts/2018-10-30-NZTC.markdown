@@ -7,5 +7,6 @@ role: Design & development
 websiteUrl: https://www.nztcinternational.com/
 imageUrl: nztc-400.png
 tags: ["Design & front end development"]
+home: false
 ---
 Just another test
