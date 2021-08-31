@@ -32,7 +32,7 @@ header .wrapper {
             fill: black;
             transition: 0.5s ease all;
             &:hover {
-            fill: rgba(238, 97, 251, 0.5);
+            fill: #700F61;
             }
         }
         
@@ -42,7 +42,7 @@ header .wrapper {
         color: inherit;
         transition: 0.5s ease all;
         &:hover {
-          color: rgba(238, 97, 251, 0.5);
+          color: #700F61;
         }
     }
 }
@@ -253,44 +253,3 @@ footer {
 }
 
 
-@media (prefers-color-scheme: dark) {
-    body{
-        color: white;
-        background-color: #1e1e1e;
-        a {
-            color: white;
-        }
-    }
-    h1 a:hover {
-        color: #F7B1FD;
-    }
-    header .wrapper .linkedin {
-        svg {
-            fill: white;
-        }
-        &:hover {
-            svg {
-                fill: rgba(193, 0, 163, 0.5);
-            }
-        }
-    }
-    .about,
-    .portfolio .post:nth-of-type(4), 
-    .portfolio .post:nth-of-type(5) {
-        background: rgba(193, 0, 163, 0.5);
-    }
-
-    .portfolio h2,
-    .portfolio .post:nth-of-type(1),
-    .portfolio .post:nth-of-type(8), 
-    .portfolio .post:nth-of-type(9) {
-        background: rgba(44, 113, 244, 0.5);
-    }
-    .talks,
-    .portfolio .post:nth-of-type(2), 
-    .portfolio .post:nth-of-type(3), 
-    .portfolio .post:nth-of-type(6), 
-    .portfolio .post:nth-of-type(7) {
-        background-color: rgba(132, 47, 255, 0.5);
-    }
-}
