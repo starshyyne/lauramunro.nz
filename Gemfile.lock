@@ -280,6 +280,7 @@ GEM
     unf_ext (0.0.7.7)
     unf_ext (0.0.7.7-x64-mingw32)
     unicode-display_width (1.7.0)
+    webrick (1.7.0)
 
 PLATFORMS
   arm64-darwin-20
@@ -294,6 +295,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.15.1)
   jekyll-seo-tag
   tzinfo-data
+  webrick (~> 1.7)
 
 BUNDLED WITH
    2.2.26
