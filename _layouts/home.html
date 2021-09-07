@@ -15,19 +15,19 @@ layout: default
     <h2>Portfolio</h2>
 
     <div class="posts">
-    {% for post in site.posts %}
-      <div class="post">
-          {%- if post.imageUrl -%}
-            <a class="thumbnail" href="{{ post.websiteUrl }}">
-              <img src="/images/{{ post.imageUrl }}" title="{{ post.title }}" alt="{{ post.imageAlt }}"/>
-            </a>
-          {%- endif -%}
-          <div>
-            <h3>{{ post.title | escape }}</h3>
-            {{ post.content }}
-          </div>
-      </div>
-    {%- endfor -%}
+      {% for project in site.data.portfolio %}
+        <div class="post">
+            {%- if project.imageUrl -%}
+              <a class="thumbnail" href="{{ project.websiteUrl }}">
+                <img src="/images/portfolio/{{ project.imageUrl }}" title="{{ project.title }}" alt="{{ project.imageAlt }}"/>
+              </a>
+            {%- endif -%}
+            <div>
+              <h3>{{ project.title | escape }}</h3>
+              {{ project.content | markdown }}
+            </div>
+        </div>
+      {%- endfor -%}
     </div>
   </div>
 
