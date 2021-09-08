@@ -8,7 +8,7 @@
 	Twitter: @ndorfin
 
 /* SITE */
-	Last update:2012/02/04
+	Last update: 2021/08/01
 	Language: English
-	Doctype:HTML5
+	Doctype: HTML5
 	IDE: VSCode, Figma
