@@ -1,0 +1,14 @@
+/* TEAM */
+	Design & developer: Laura Munro
+	Contact: hello [at] lauramunro.nz
+	From: Wellington, New Zealand
+
+/* THANKS */
+	Development support & mentorship: Shaun O'Connell 
+	Twitter: @ndorfin
+
+/* SITE */
+	Last update:2012/02/04
+	Language: English
+	Doctype:HTML5
+	IDE: VSCode, Figma
