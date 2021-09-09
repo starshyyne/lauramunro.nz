@@ -11,6 +11,6 @@ tags: ["Design"]
 home: true
 ---
 
-The self service product for injuried New Zealanders to access support with ACC. 
+The self service product for injured New Zealanders to access support with ACC. 
 
 As the UX/UI Designer I am responsible for the discovery and design of new features, and provide on-going support for the development phase.
