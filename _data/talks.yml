@@ -1,0 +1,15 @@
+# - id:  # sluggify the title, and use it here as the id.
+#   title: 
+#   date: 2021-08-30 12:59:13 +1300
+#   talkUrl: 
+
+- id: blackdog
+  title: The black dog can code too - DrupalSouth 2018
+  date: 2018-08-30 12:59:13 +1300
+  talkUrl: https://www.youtube-nocookie.com/embed/j3cnnfGk_78
+
+- id: anewhope
+  title: Theming Drupal in 2017 A New Hope - DrupalSouth 2017
+  date: 2017-11-02 12:59:13 +1300
+  talkUrl: https://www.youtube-nocookie.com/embed/kPAsB6iRjhM
+  
