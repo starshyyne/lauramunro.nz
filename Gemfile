@@ -22,6 +22,7 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem "breakpoint"
   gem "github-pages"
+  gem "jekyll-paginate"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

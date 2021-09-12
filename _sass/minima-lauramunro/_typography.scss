@@ -49,17 +49,59 @@ p {
 }
 
 a {
-  color: black;
+  color: inherit;
+  transition: 0.3s ease color;
 }
 
-ul li {
-  line-height: 32px;
+h1, h2, h3, h4, p {
+  a:hover {
+    color: darken($pink-dark, 5%);
+  }
 }
 
-h4 + ul {
-  margin-top: -1em;
+a {
+  color: inherit;
+  transform: 0.3s ease color;
+  &:hover {
+    color: darken($pink-dark, 5%);
+  }
 }
 
-p + ul {
-  margin-top: -1em;
+a.button {
+    color: white;
+    display: inline-block;
+    padding: 12px 18px;  
+    background: white;  
+    margin-bottom: 1.5em; 
+    
+    @include breakpoint($desktop) {
+      margin-bottom: 1.5em;
+    }
+    
+    &:hover {
+      color: $page-dark;
+      background: white;
+      box-shadow: 0px 0px 0px 1px $page-dark;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+  a.button {
+    color: $page-dark;
+    background: white;     
+    
+    &:hover {
+      color: white;
+      background: $page-dark;
+      box-shadow: 0px 0px 0px 1px white;
+    }
+  }
+  h1, h2, h3, h4, p {
+    a:hover {
+      color: lighten($pink-light, 15%);
+    }
+  }
+  a:hover {
+    color: lighten($pink-light, 15%);
+  }
 }

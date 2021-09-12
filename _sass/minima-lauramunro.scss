@@ -4,30 +4,28 @@
 
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600,800,900");
 
-// Define variables
-$tablet: 600px;
-$desktop: 880px;
-$large: 1400px;
 
 // Import partials.
 @import
+"minima-lauramunro/variables",
   "minima-lauramunro/base",
-  "minima-lauramunro/layout",
   "minima-lauramunro/typography",
-  "minima-lauramunro/posts"
+  "minima-lauramunro/home",
+  "minima-lauramunro/page",
+  "minima-lauramunro/blog"
 ;
 
 @media (prefers-color-scheme: dark) {
   body{
       color: white;
-      background-color: #1e1e1e;
+      background-color: $page-dark;
       a {
           color: white;
       }
   }
   h1 a:hover,
   header .wrapper .mail:hover {
-      color: #F7B1FD;
+      color: lighten($pink-light, 15%);
   }
   header .wrapper .linkedin {
       svg {
@@ -35,27 +33,29 @@ $large: 1400px;
       }
       &:hover {
           svg {
-              fill:#F7B1FD;
+              fill: lighten($pink-light, 15%);
           }
       }
   }
   .about,
+  .talks,
   .portfolio .post:nth-of-type(4), 
   .portfolio .post:nth-of-type(5) {
-      background: rgba(193, 0, 163, 0.5);
+      background: rgba($pink-dark, 0.5);
   }
 
   .portfolio h2,
   .portfolio .post:nth-of-type(1),
   .portfolio .post:nth-of-type(8), 
   .portfolio .post:nth-of-type(9) {
-      background: rgba(44, 113, 244, 0.5);
+      background: rgba($blue-dark, 0.5);
   }
-  .talks,
+  
+  .home .home-blog,
   .portfolio .post:nth-of-type(2), 
   .portfolio .post:nth-of-type(3), 
   .portfolio .post:nth-of-type(6), 
   .portfolio .post:nth-of-type(7) {
-      background-color: rgba(132, 47, 255, 0.5);
+      background: rgba($purple-dark, 0.5);
   }
 }
