@@ -4,7 +4,7 @@ title: "Web accessibility for designers - Perceivable"
 date: 2021-09-12 10:26:13 +1300
 ---
 
-As more governments are adopting the WCAG as part of their policies for digital content, it’s becoming more important for designers to understand what this means, and how to build it into their products. The good news is, an accessible website is good for everybody, not just those with disabilities.
+As more governments are adopting the Web Content Accessibility Guidelines (WCAG) as part of their policies for digital content, it’s becoming more important for designers to understand what this means, and how to build it into their products. The good news is, an accessible website is good for everybody, not just those with disabilities.
 
 Accessibility is something that ideally, is considered from the inception of a digital product. While it is possible and definitely worthwhile to retroactively adopt websites and apps to be more accessible, it is much more difficult and will require extensive rework for both the design and development.
 
@@ -22,7 +22,7 @@ It can be tempting to put secondary text such as a date or order numbers in a sm
 
 ### Check colours for contrast 
 
-If the colours of text or a graphic element do not have enough contrast with their backgrounds, it will be difficult for people to see and understand easily. As well as those with vision difficulties, this is also important for people who are colourblind, which is thought to be as high as 1 in 12 men, and 1 in 200 in women. Good news everybody, WebAIM has a great handy tool for this. Simply put in the hex codes of the colours you’re using and it will show you the contrast values. If the contrast isn’t high enough, there’s not a lot your user can do to try to fix it, or they may not even know there’s something there they can’t see. 
+If the colours of text or a graphic element do not have enough contrast with their backgrounds, it will be difficult for people to see and understand easily. As well as those with vision difficulties, this is also important for people who are colourblind, which is thought to be as high as 1 in 12 men, and 1 in 200 in women. Good news everybody, WebAIM has a great handy tool for this, a [colour contrast checker](https://webaim.org/resources/contrastchecker/). Simply put in the hex codes of the colours you’re using and it will show you the contrast values. If the contrast isn’t high enough, there’s not a lot your user can do to try to fix it, or they may not even know there’s something there they can’t see. 
 
 ### Have labels for icons
 
