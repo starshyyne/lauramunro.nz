@@ -31,6 +31,18 @@ layout: default
     </div>
   </div>
 
+  <div class="blog">
+    <h2>Blog</h2>
+    {% for post in site.posts limit:3 %}
+      <div class="post">
+        <h3><a href="{{ post.permalink }}">{{ post.title }}</a></h3>
+        <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 256 }}</p>
+        <a href="{{ post.permalink }}">Read this post</a>
+      </div>
+    
+    {%- endfor -%}
+  </div>
+
   <div class="talks">
     <h2>Recorded talks</h2>    
     <div class="talk">
