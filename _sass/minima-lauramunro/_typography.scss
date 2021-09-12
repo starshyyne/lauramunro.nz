@@ -65,6 +65,7 @@ a {
   transform: 0.3s ease color;
   &:hover {
     color: darken($pink-dark, 5%);
+    text-decoration: underline 5px;
   }
 }
 
