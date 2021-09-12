@@ -45,7 +45,7 @@ Web content should have a clear top heading element, usually a page title. Other
 
 ## Summary
 
-That's all my hot tips for increasing perceivability. A lot of these seem simple, and they are! A lot of these are basic design principles, as well as accessibility principles. These things will improve your website user experience for everyone, regardless of if they have accessibility needs. But understanding the impact that these things can have on accessibility is great, and another tool to add to your belt. Stay tuned to learn about the next area of accessibility that relates closely to design, making websites more understandable.
+That's all my hot tips for increasing perceivability. A lot of these seem simple, and they are! A lot of these are basic design principles, as well as accessibility principles. These things will improve your website user experience for everyone, regardless of if they have accessibility needs. Understanding the impact that these things can have on accessibility is great to sell to the wider team and stakeholders, and add another tool to your belt. Stay tuned to learn about the next area of accessibility that relates closely to design, making websites more understandable.
 
 There are heaps of resources on the web on accessibility. Check these out to get started:
 
