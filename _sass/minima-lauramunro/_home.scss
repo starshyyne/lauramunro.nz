@@ -201,6 +201,9 @@ header .wrapper {
         max-width: 60%;
         padding-left: 16%;
     }
+    @include breakpoint($xxlarge) {
+        padding-left: 20%;
+    }
 
     h2 {
         margin-bottom: 60px;
