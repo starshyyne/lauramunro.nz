@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Web accessibility for designers pt1- Perceivable"
-date: 2021-09-09 10:26:13 +1300
+date: 2021-09-12 10:26:13 +1300
 ---
 
 As more governments are adopting the WCAG as part of their policies for digital content, it’s becoming more important for designers to understand what this means, and how to build it into their products. The good news is, an accessible website is good for everybody, not just those with disabilities.
@@ -32,5 +32,10 @@ Ever had the problem where you’re on a new website, and trying to find your wa
 
 Web content should have a clear top heading element, usually a page title. Other headings should each decrease in font size, and be easily distinguishable from regular page text. Headings should be consistent across different pages, so users can easily identify the headings and subheadings, and don’t have to re-learn a new pattern on each page. Don’t be afraid to have a decent amount of breathing room between text elements, this will help people with reading difficulties be able to take in your content. 
 
+That's all my hot tips for increasing perceivability. A lot of these seem simple, and they are! Stay tuned to learn about the next area of accessibility that relates closely to design, making websites more understandable.
 
+There are heaps of resources on the web on accessibility. Check these out to get started:
 
+- [Web Accessibility In Mind](https://webaim.org/)
+- [W3 Web Accessibility Inititive](https://www.w3.org/WAI/)
+- [Gov.UK Accessibility in Government](https://accessibility.blog.gov.uk/)

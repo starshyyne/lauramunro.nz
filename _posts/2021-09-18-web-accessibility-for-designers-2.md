@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Web accessibility for designers pt2 - Understandable"
-date: 2021-09-10 10:26:13 +1300
+date: 2021-09-18 10:26:13 +1300
 ---
 
-In my last post we looked at how to make websites more perceivable. The next aspect of web accessibility I'm going to discuss is making them more Understandable. 
+In my last post we looked at how to make websites more perceivable. The next aspect of web accessibility that relates closely to design is making them more understandable, 
 
 ## Understandable
 

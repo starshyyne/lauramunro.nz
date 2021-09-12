@@ -208,6 +208,10 @@ header .wrapper {
 
     .post {
         margin-bottom: 50px;
+
+        @include breakpoint($desktop) {
+            margin-bottom: 80px;
+        }
     }
 
 }
