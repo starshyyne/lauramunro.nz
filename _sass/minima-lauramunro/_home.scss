@@ -10,7 +10,7 @@ header,
 header .wrapper {
     display: grid;
     grid-template-areas: "h1 linkedin"
-                        "blog mail";
+                        "mail blog";
 
         @include breakpoint($tablet) {
             grid-template-areas: "h1 blog mail linkedin";
