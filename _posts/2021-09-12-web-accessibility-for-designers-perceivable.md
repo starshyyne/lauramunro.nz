@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Web accessibility for designers pt1- Perceivable"
+title: "Web accessibility for designers - Perceivable"
 date: 2021-09-12 10:26:13 +1300
 ---
 
@@ -42,6 +42,8 @@ Relying on colour alone to denote meaning is risky business. I see this most com
 ### Have clear page text hierarchy 
 
 Web content should have a clear top heading element, usually a page title. Other headings should each decrease in font size, and be easily distinguishable from regular page text. Headings should be consistent across different pages, so users can easily identify the headings and subheadings, and don’t have to re-learn a new pattern on each page. Don’t be afraid to have a decent amount of breathing room between text elements, this will help people with reading difficulties be able to take in your content. 
+
+## Summary
 
 That's all my hot tips for increasing perceivability. A lot of these seem simple, and they are! A lot of these are basic design principles, as well as accessibility principles. But understanding the impact that these things can have on accessibility is great, and another tool to add to your belt. Stay tuned to learn about the next area of accessibility that relates closely to design, making websites more understandable.
 
