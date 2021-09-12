@@ -24,19 +24,26 @@ It can be tempting to put secondary text such as a date or order numbers in a sm
 
 If the colours of text or a graphic element do not have enough contrast with their backgrounds, it will be difficult for people to see and understand easily. As well as those with vision difficulties, this is also important for people who are colourblind, which is thought to be as high as 1 in 12 men, and 1 in 200 in women. Good news everybody, WebAIM has a great handy tool for this. Simply put in the hex codes of the colours you’re using and it will show you the contrast values. If the contrast isn’t high enough, there’s not a lot your user can do to try to fix it, or they may not even know there’s something there they can’t see. 
 
-### Don’t rely on icons for meaning
+### Have labels for icons
 
 Ever had the problem where you’re on a new website, and trying to find your way around, but nothing has a label? This creates problems for everybody, not just those with visual impairments. Depending on where you’re from, or how old you are, a symbol that denotes one thing for one person may denote something completely different for someone else. Icons should have corresponding labels. It’s also highly suggested to use a useful hover label to further explain the action that will happen when the icon is clicked or tapped. 
 
-### Don't rely on colour alone for meaning
+#### Not helpful:
+⏳
 
-Relying on colour alone to denote meaning is risky business. I see this most commonly on form error states, where the only visual indicator something has gone wrong is that the border has changed from black to red. If there is no other indication something has changed, it can make it very difficult to spot the errors. It's best to pair a colour change with another visual indicator, such as increasing border size, adding a message, or an icon. 
+#### Helpful:
+⏳ 
+In progress
+
+### Pair a colour change with another visual indicator
+
+Relying on colour alone to denote meaning is risky business. I see this most commonly on form error states, where the only visual indicator something has gone wrong is that the border of an input has changed from black to red. If there is no other indication something has changed, it can make it very difficult to spot the errors. It's best to pair a colour change with another visual indicator, such as increasing border size, adding a message, or an icon. 
 
 ### Have clear page text hierarchy 
 
 Web content should have a clear top heading element, usually a page title. Other headings should each decrease in font size, and be easily distinguishable from regular page text. Headings should be consistent across different pages, so users can easily identify the headings and subheadings, and don’t have to re-learn a new pattern on each page. Don’t be afraid to have a decent amount of breathing room between text elements, this will help people with reading difficulties be able to take in your content. 
 
-That's all my hot tips for increasing perceivability. A lot of these seem simple, and they are, isn't that great? Stay tuned to learn about the next area of accessibility that relates closely to design, making websites more understandable.
+That's all my hot tips for increasing perceivability. A lot of these seem simple, and they are! A lot of these are basic design principles, as well as accessibility principles. But understanding the impact that these things can have on accessibility is great, and another tool to add to your belt. Stay tuned to learn about the next area of accessibility that relates closely to design, making websites more understandable.
 
 There are heaps of resources on the web on accessibility. Check these out to get started:
 
