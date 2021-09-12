@@ -1,0 +1,161 @@
+.post-content {
+    padding: 30px;
+}
+
+.post-navigation {
+    padding: 30px;
+}
+
+.page.blog {
+    header {
+        background: rgba($pink-light, 0.5);
+
+        @include breakpoint($tablet) {
+            max-width: 80%;
+        }
+    }
+    ul.blog {
+        padding-left: 0px;
+        li {
+            list-style: none;
+            margin-bottom: 100px;
+
+            .post-teaser {
+                max-width: 600px;
+            }
+            
+
+            &:after {
+                content: '';
+                display: block;
+                position: relative;
+                height: 16px;
+                width: 140%;
+                background-image: url('/assets/squiggle-pink.png');
+                background-size: 180px;
+                background-repeat: repeat-x;
+                left: -20%;
+                top: 50px;
+            }
+
+            &:nth-of-type(2n + 1) {
+                &:after {
+                    background-image: url('/assets/squiggle-purple.png');
+                }
+            }
+
+            &:nth-of-type(3n + 1) {
+                &:after {
+                    background-image: url('/assets/squiggle-blue.png');
+                }
+            }
+        }
+    }
+}
+
+
+
+article.post {
+    .post-intro {
+        background: rgba($pink-light, 0.5);
+        padding: 30px 30px 150px 30px;
+        display: flex;
+        align-items: center;
+
+        @include breakpoint($desktop) {
+            max-width: 80%;
+        }
+
+        a.button {
+            margin-right: 30px;
+            margin-bottom: 0px;
+        }
+
+        p {
+            margin: 0;
+        }
+    }
+
+    header {
+        background: rgba($blue-light, 0.5);
+        margin-top: -100px;
+        padding-top: 1px;
+
+        @include breakpoint($desktop) {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h1 {
+            margin: 30px 0px 0px 0px;
+        }
+    }
+
+    @include breakpoint($desktop) {
+        .post-content {
+            max-width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+
+            p {
+                max-width: 720px;
+            }
+        }
+    }
+}
+
+.post-navigation {
+    background: rgba($purple-light, 0.5);
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+    a.button {
+        display: block;
+        flex-grow: 0;
+    }
+
+    .nav {
+        width: 100%;
+
+        a {
+            display: block;
+            margin-bottom: 1em;                
+                &:nth-of-type(even) {
+                    text-align: right;
+                }
+        }
+
+        @include breakpoint($tablet) {
+            display: flex;
+            justify-content: space-between;
+
+            a {
+                width: 50%;
+                margin:0;
+            }
+        }
+
+        @include breakpoint($desktop) {
+            max-width: 80%;
+        }
+
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    article.post  {
+        .post-intro {
+            background: rgba($pink-dark, 0.5);
+        }
+        header {
+        background: rgba($blue-dark, 0.5);
+        }
+    }
+    .post-navigation {
+        background: rgba($purple-dark, 0.5);
+    }
+}

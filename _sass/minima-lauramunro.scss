@@ -9,9 +9,10 @@
 @import
 "minima-lauramunro/variables",
   "minima-lauramunro/base",
-  "minima-lauramunro/layout",
   "minima-lauramunro/typography",
-  "minima-lauramunro/posts"
+  "minima-lauramunro/home",
+  "minima-lauramunro/page",
+  "minima-lauramunro/blog"
 ;
 
 @media (prefers-color-scheme: dark) {
@@ -50,7 +51,7 @@
       background: rgba($blue-dark, 0.5);
   }
   
-  .blog,
+  .home .blog,
   .portfolio .post:nth-of-type(2), 
   .portfolio .post:nth-of-type(3), 
   .portfolio .post:nth-of-type(6), 
