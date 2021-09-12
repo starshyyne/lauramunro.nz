@@ -25,7 +25,7 @@
   }
   h1 a:hover,
   header .wrapper .mail:hover {
-      color: $pink-light;
+      color: lighten($pink-light, 15%);
   }
   header .wrapper .linkedin {
       svg {
@@ -33,7 +33,7 @@
       }
       &:hover {
           svg {
-              fill: $pink-light;
+              fill: lighten($pink-light, 15%);
           }
       }
   }
@@ -51,7 +51,7 @@
       background: rgba($blue-dark, 0.5);
   }
   
-  .home .blog,
+  .home .home-blog,
   .portfolio .post:nth-of-type(2), 
   .portfolio .post:nth-of-type(3), 
   .portfolio .post:nth-of-type(6), 

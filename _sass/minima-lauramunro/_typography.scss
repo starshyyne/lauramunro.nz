@@ -48,6 +48,25 @@ p {
   }
 }
 
+a {
+  color: inherit;
+  transition: 0.3s ease color;
+}
+
+h1, h2, h3, h4, p {
+  a:hover {
+    color: darken($pink-dark, 5%);
+  }
+}
+
+a {
+  color: inherit;
+  transform: 0.3s ease color;
+  &:hover {
+    color: darken($pink-dark, 5%);
+  }
+}
+
 a.button {
     color: white;
     display: inline-block;
@@ -62,6 +81,7 @@ a.button {
     &:hover {
       color: $page-dark;
       background: white;
+      box-shadow: 0px 0px 0px 1px $page-dark;
     }
 }
 
@@ -73,6 +93,15 @@ a.button {
     &:hover {
       color: white;
       background: $page-dark;
+      box-shadow: 0px 0px 0px 1px white;
     }
+  }
+  h1, h2, h3, h4, p {
+    a:hover {
+      color: lighten($pink-light, 15%);
+    }
+  }
+  a:hover {
+    color: lighten($pink-light, 15%);
   }
 }

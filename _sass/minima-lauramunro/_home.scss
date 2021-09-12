@@ -32,7 +32,7 @@ header .wrapper {
             fill: black;
             transition: 0.5s ease all;
             &:hover {
-            fill: $purple-dark;
+            fill: darken($pink-dark, 5%);
             }
         }
         
@@ -45,7 +45,7 @@ header .wrapper {
         color: inherit;
         transition: 0.5s ease all;
         &:hover {
-          color: $purple-dark;
+          color: darken($pink-dark, 5%);
         }
     }
 }
@@ -187,8 +187,8 @@ header .wrapper {
     }
 }
 
-.home .blog {
-    background: rgba($pink-light, 0.5);
+.home .home-blog {
+    background: rgba($purple-light, 0.5);
     padding-bottom: 120px;
     position: relative;
     padding: 1px 20px 140px 20px;
@@ -204,6 +204,10 @@ header .wrapper {
 
     h2 {
         margin-bottom: 60px;
+    }
+
+    .post {
+        margin-bottom: 50px;
     }
 
 }

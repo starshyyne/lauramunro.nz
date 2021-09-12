@@ -146,7 +146,19 @@ article.post {
     }
 }
 
+.pagination {
+    .next {
+        margin-left: 20px;
+    }
+    .previous {
+        margin-right: 20px;
+    }
+}
+
 @media (prefers-color-scheme: dark) {
+    .page.blog header {
+        background: rgba($pink-dark, 0.5);
+    }
     article.post  {
         .post-intro {
             background: rgba($pink-dark, 0.5);
