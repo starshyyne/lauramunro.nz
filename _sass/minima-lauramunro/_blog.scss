@@ -6,7 +6,7 @@
     padding: 30px;
 }
 
-.page.blog {
+.page-blog {
     header {
         background: rgba($pink-light, 0.5);
 
@@ -20,10 +20,15 @@
             list-style: none;
             margin-bottom: 100px;
 
-            .post-teaser {
-                max-width: 600px;
+            @include breakpoint($desktop) {
+                max-width: 80%;
+                margin-left: auto;
+                margin-right: auto;
             }
-            
+
+            .post-teaser {
+                max-width: 720px;
+            }
 
             &:after {
                 content: '';
@@ -156,7 +161,7 @@ article.post {
 }
 
 @media (prefers-color-scheme: dark) {
-    .page.blog header {
+    .page-blog header {
         background: rgba($pink-dark, 0.5);
     }
     article.post  {
