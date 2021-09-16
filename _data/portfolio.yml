@@ -37,16 +37,17 @@
   content: |-
     A digital drawing made in Krita in 2020
 
-- id: ginkaku-ji
-  title: Ginkaku-ji
+- id: bones
+  title: Bones Drupal Theme
   date: 2020-07-22 12:59:13 +1300
-  websiteUrl: https://www.behance.net/gallery/101116233/Ginkakuji
-  imageUrl: Ginkakuji-400.png 
-  imageAlt: The Silver Pavilion in Kyoto Japan has silver roofs and is surrounded by zen gardens and tranquil ponds
+  websiteUrl: https://bones.xequals.co.nz
+  imageUrl: bones-400.png 
+  imageAlt: A screenshot of the Bones website with minimalism design, bright blue headlines and monospaced body copy
   tags: 
-    - Digital drawing
+    - design
+    - front end development
   content: |-
-    A digital drawing of Ginkaku-ji, The Silver Pavilion, in Kyoto Japan.
+    A Drupal 8 theme designed with flexibility and strong typography in mind. This fully responsive theme is open source and available for download.
 
 - id: demon-slayer
   title: Demon Slayer - Nezuko fan art
