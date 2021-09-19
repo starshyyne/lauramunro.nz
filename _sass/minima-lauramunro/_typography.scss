@@ -5,8 +5,12 @@ body {
 
 h1 {
   font-weight: 900;
-  font-size: 40px;
-  word-break: break-word;
+  font-size: 36px;
+  overflow-wrap: break-word;
+
+  @include breakpoint(380px) {
+    font-size: 40px;
+  }
 
   @include breakpoint($tablet) {
     font-size: 56px;
