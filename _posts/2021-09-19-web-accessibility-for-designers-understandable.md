@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Web accessibility for designers - Under&shy;standable"
+title: "Web accessibility for designers - Understandable"
 date: 2021-09-19 10:26:13 +1300
 ---
 
