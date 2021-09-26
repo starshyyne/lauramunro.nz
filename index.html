@@ -20,7 +20,7 @@ layout: default
                 <img src="/images/portfolio/{{ project.imageUrl }}" title="{{ project.title }}" alt="{{ project.imageAlt }}"/>
               </a>
             {%- endif -%}
-            <div>
+            <div class="post-text">
               <h3>{{ project.title | escape }}</h3>
               {{ project.content | markdown }}
             </div>
