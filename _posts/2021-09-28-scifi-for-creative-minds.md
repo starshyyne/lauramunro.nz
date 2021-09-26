@@ -4,7 +4,7 @@ title: "Sci-Fi for creative minds"
 date: 2021-09-28 10:26:13 +1300
 ---
 
-I love Sci Fi a lot, it's my favourite genre of anything, and I think a lot of it has to do with the fact that it's entirely based on imagining what's possible. It speaks to my curious soul and goes into the "what if"s of the universe, of humanity, of society, of technology.
+I love Sci Fi a lot, it's my favourite genre of anything, and I think a lot of it has to do with the fact that it's entirely based on imagining what's possible. It speaks to my curious soul and goes into the "what if"s of the universe, humanity, society, and technology.
 
 While a lot of mainstream Sci Fi, especially in the last 10 years, has been heavily post-apocalyptic and showing a very negative view of the future, even in those bleak futures we're able to see glimmers of hope in a hero protagonist working tirelessly to overthrow an oppressive regime or tyrannical dictator. Looking at you, Handmaidens Tale, Hunger Games, Maze Runner, Divergent, that Tom Cruise Movie that changed names . 
 
