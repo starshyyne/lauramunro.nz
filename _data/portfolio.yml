@@ -13,6 +13,17 @@
 #     
 #     Multiple-lines supported
 
+- id: sharesies
+  title: Sharesies
+  date: 2022-05-06 12:59:13 +1300
+  websiteUrl: https://www.sharesies.nz/
+  imageUrl: sharesies.png 
+  imageAlt: 3 screenshots of the wealth development platform Sharesies
+  tags:
+    - design
+  content: |-
+    Sharesies is a wealth development platfrom hell-bent on giving everyone the same money opportunities. As a senior product designer for Sharesies I work on the internal design system. I work with other designers and developers to create design components, tokens and styles for use all over Sharesies, with an emphasis on making things accessible and cohesive.
+    
 - id: myacc
   title: MyACC
   date: 2021-08-30 12:59:13 +1300
