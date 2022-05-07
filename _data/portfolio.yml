@@ -95,16 +95,16 @@
   content: |-
     A reporting tool for business and government. I was the designer on a refresh of the website, and also built the front-end Opal3 website using Drupal. 
 
-- id: young-enterprise-scheme-poster
-  title: Young Enterprise Scheme Poster
-  date: 2018-10-27 10:26:13 +1300
-  websiteUrl: http://youngenterprise.org.nz/
-  imageUrl: yes-400.png
-  imageAlt: A poster that uses icons and a flow chat to demonstate the agile process
-  tags: 
-    - design
-  content: |-
-    A poster design to demonstrate an agile workflow for a startup company
+# - id: young-enterprise-scheme-poster
+#   title: Young Enterprise Scheme Poster
+#   date: 2018-10-27 10:26:13 +1300
+#   websiteUrl: http://youngenterprise.org.nz/
+#   imageUrl: yes-400.png
+#   imageAlt: A poster that uses icons and a flow chat to demonstate the agile process
+#   tags: 
+#     - design
+#   content: |-
+#     A poster design to demonstrate an agile workflow for a startup company
 
 - id: nzcer
   title: NZCER
