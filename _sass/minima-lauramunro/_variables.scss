@@ -6,11 +6,29 @@ $desktop: 880px;
 $large: 1400px;
 $xxlarge: 1800px;
 
+// Spacing
+$spacing-s: 32px;
+$spacing-m: 64px;
+
 // Colours
+
+$foreground-lightmode: #1e1e1e;
+
+
+$text-color: $foreground-lightmode;
+$text-color-darkmode: white;
+
+$link-lightmode: #7346F2;
+$link-lightmode: #933FFF;
+$link-darkmode: rgb(198, 189, 255);
+
+$blog-lightmode: #DBFFA6;
+$post-lightmode: #B1FADA;
+
 
 // light mode
 $pink-light: rgb(238, 97, 251);
-$purple-light: rgb(135, 116, 255);
+$purple-light: rgb(198, 189, 255);
 $blue-light: rgb(146, 199, 249);
 
 // dark mode
@@ -19,3 +37,5 @@ $purple-dark: rgb(132, 47, 255);
 $blue-dark:  rgb(44, 113, 244);
 
 $page-dark: #1e1e1e;
+
+$border-lightmode: 2px solid $foreground-lightmode;
