@@ -1,0 +1,37 @@
+@keyframes pink {
+    from {
+      transform: rotate(20deg) scale(2.5, 2.2) translate(10%, 30%);
+    }
+    to {
+      transform: rotate(-20deg) scale(2.8, 2.5) translate(-20%, -5%);
+    }
+  }
+  
+  @keyframes green {
+    from {
+      transform: rotate(20deg) scale(1.8, 1.8) translate(-20%, 10%);
+    }
+    to {
+      transform: rotate(-60deg) scale(2.2, 2.8) translate(10%, -20%);
+    }
+  }
+  
+  @keyframes yellow {
+    from {
+      transform: rotate(-20deg) scale(3, 2.1) translate(-40%, 10%);
+    }
+  
+    to {
+      transform: rotate(60deg) scale(1.4, 1.9) translate(10%, -10%);
+    }
+  }
+  
+  @keyframes purple {
+    from {
+      transform: rotate(20deg) scale(1.9, 2.8) translate(20%, -33%);
+    }
+  
+    to {
+      transform: rotate(-30deg) scale(2.2, 1.8) translate(-10%, 40%);
+    }
+  }

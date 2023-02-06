@@ -2,60 +2,17 @@
 
 @import "breakpoint";
 
-@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600,800,900");
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;800&display=swap');
 
 
 // Import partials.
 @import
 "minima-lauramunro/variables",
+"minima-lauramunro/animations",
   "minima-lauramunro/base",
   "minima-lauramunro/typography",
+  "minima-lauramunro/hero",
   "minima-lauramunro/home",
   "minima-lauramunro/page",
   "minima-lauramunro/blog"
 ;
-
-@media (prefers-color-scheme: dark) {
-  body{
-      color: white;
-      background-color: $page-dark;
-      a {
-          color: white;
-      }
-  }
-  h1 a:hover,
-  header .wrapper .mail:hover {
-      color: lighten($pink-light, 15%);
-  }
-  header .wrapper .linkedin {
-      svg {
-          fill: white;
-      }
-      &:hover {
-          svg {
-              fill: lighten($pink-light, 15%);
-          }
-      }
-  }
-  .about,
-  .talks,
-  .portfolio .post:nth-of-type(4), 
-  .portfolio .post:nth-of-type(5) {
-      background: rgba($pink-dark, 0.5);
-  }
-
-  .portfolio h2,
-  .portfolio .post:nth-of-type(1),
-  .portfolio .post:nth-of-type(8), 
-  .portfolio .post:nth-of-type(9) {
-      background: rgba($blue-dark, 0.5);
-  }
-  
-  .home .home-blog,
-  .portfolio .post:nth-of-type(2), 
-  .portfolio .post:nth-of-type(3), 
-  .portfolio .post:nth-of-type(6), 
-  .portfolio .post:nth-of-type(7) {
-      background: rgba($purple-dark, 0.5);
-  }
-}

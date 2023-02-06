@@ -1,52 +1,18 @@
 body {
     font-family: "Work Sans", sans-serif;
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 22px;
+    @include breakpoint($tablet) {
+      font-size: 18px;
+      line-height: 26px;
+    }
 }
-
-h1 {
-  font-weight: 900;
-  font-size: 36px;
-  overflow-wrap: break-word;
-
-  @include breakpoint(380px) {
-    font-size: 40px;
-  }
-
-  @include breakpoint($tablet) {
-    font-size: 56px;
-  }
-
-  a {
-      text-decoration: none;
-      color: inherit;
-      transition: 0.5s ease all;
-      &:hover {
-        color: #700F61;
-      }
-  }
-}
-
-h2 {
-  font-weight: 800;
-  font-size: 30px;
-
-  @include breakpoint($tablet) {
-    font-size: 42px;
-  }
-}
-
-h3 {
-  font-weight: 600;
-  font-size: 20px;
-
-  @include breakpoint($tablet) {
-    font-size: 36px;
-  }
-} 
 
 p {
   font-size: 16px;
   line-height: 22px;
+  max-width: 680px;
+  font-weight: 400;
   @include breakpoint($tablet) {
     font-size: 18px;
     line-height: 26px;
@@ -54,61 +20,91 @@ p {
 }
 
 a {
+  text-decoration: underline $link-lightmode 2px;
+  text-underline-offset: 4px;
   color: inherit;
-  transition: 0.3s ease color;
-}
-
-h1, h2, h3, h4, p {
-  a:hover {
-    color: darken($pink-dark, 5%);
-    text-decoration: underline 5px;
-  }
-}
-
-a {
-  color: inherit;
-  transition: 0.3s ease all;
+  transition: 0.2s ease all;
   &:hover {
-    color: darken($pink-dark, 5%);
-    text-decoration: underline 5px;
+    color: $link-lightmode;
   }
 }
 
-a.button {
-    color: $page-dark;
-    display: inline-block;
-    padding: 12px 18px;  
-    background: white;  
-    margin-bottom: 1.5em; 
-    
-    @include breakpoint($desktop) {
-      margin-bottom: 1.5em;
-    }
-    
-    &:hover {
-      color: $page-dark;
-      background: white;
-      box-shadow: 0px 0px 0px 1px $page-dark;
-    }
+h1 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 40px;
+  overflow-wrap: break-word;
+  @include breakpoint(380px) {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  @include breakpoint($tablet) {
+    font-size: 56px;
+    line-height: 56px;
+  }
 }
 
-@media (prefers-color-scheme: dark) {
-  a.button {
-    color: $page-dark;
-    background: white;     
-    
-    &:hover {
-      color: white;
-      background: $page-dark;
-      box-shadow: 0px 0px 0px 1px white;
-    }
-  }
-  h1, h2, h3, h4, p {
-    a:hover {
-      color: lighten($pink-light, 15%);
-    }
-  }
-  a:hover {
-    color: lighten($pink-light, 15%);
+h2 {
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 36px;
+  @include breakpoint($tablet) {
+    font-size: 42px;
+    line-height: 48px;
   }
 }
+
+h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  @include breakpoint($tablet) {
+    font-size: 36px;
+    line-height: 40px;
+  }
+} 
+
+
+
+ul {
+  line-height: 1.8em;
+}
+
+// a.button {
+//     color: $foreground-lightmode;
+//     display: inline-block;
+//     padding: 12px 18px;  
+//     background: white;  
+//     margin-bottom: 1.5em; 
+    
+//     @include breakpoint($desktop) {
+//       margin-bottom: 1.5em;
+//     }
+    
+//     &:hover {
+//       color: $page-dark;
+//       background: white;
+//       box-shadow: 0px 0px 0px 1px $page-dark;
+//     }
+// }
+
+// @media (prefers-color-scheme: dark) {
+//   a.button {
+//     color: $page-dark;
+//     background: white;     
+    
+//     &:hover {
+//       color: white;
+//       background: $page-dark;
+//       box-shadow: 0px 0px 0px 1px white;
+//     }
+//   }
+//   h1, h2, h3, h4, p {
+//     a:hover {
+//       color: $link-darkmode;
+//     }
+//   }
+//   a:hover {
+//     color: $link-darkmode;
+//   }
+// }

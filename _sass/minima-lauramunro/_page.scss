@@ -1,3 +1,47 @@
 .page .page-content {
-    padding: 30px;
+    padding: $spacing-s;
+}
+
+.page-wrapper {
+    overflow: hidden;
+}
+
+header {
+    padding: $spacing-s;
+    border-bottom: 2px solid $foreground-lightmode;
+}
+
+header .wrapper {
+    display: grid;
+    grid-template-areas: "h1 linkedin"
+                        "blog blog";
+
+        @include breakpoint($tablet) {
+            grid-template-areas: "h1 blog linkedin";
+            grid-template-columns: 1fr auto $spacing-s;
+            column-gap: 40px;
+            align-items: center;
+        }
+
+    h1 {
+        grid-area: h1;
+    }
+    .linkedin {
+        grid-area: linkedin;
+        margin-left: auto;
+        span {
+            display: none;
+        }
+        svg {
+            fill: black;
+            transition: 0.5s ease all;
+            &:hover {
+            fill: $link-lightmode;
+            }
+        }
+        
+    }
+    .blog {
+        grid-area: blog;
+    }
 }
