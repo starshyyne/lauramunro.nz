@@ -1,12 +1,13 @@
 .portfolio {
     position: relative;
-    border-bottom: $border-lightmode;
+    border-bottom: $border;
     padding: $spacing-s;
     .post{
         margin-bottom: $spacing-m;
         .thumbnail {
             display: block;
             flex-shrink: 0.5;
+            align-self: flex-start;
             img {
                 border: 1px solid #ececec;
             }
@@ -32,16 +33,16 @@
 
 .home-blog {
     padding: $spacing-s;
-    border-bottom: $border-lightmode;
+    border-bottom: $border;
     .post {
         margin-bottom: $spacing-s;
         padding-bottom: $spacing-s;
-        border-top: $border-lightmode;
+        border-top: $border;
     }
 }
 
 .talks {
-    border-bottom: $border-lightmode;
+    border-bottom: $border;
     padding: $spacing-s;
     
     iframe {

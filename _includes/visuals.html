@@ -1,10 +1,22 @@
 <div class="visuals">
-    <div class="box pink">
+    <div class="box cyan">
         <svg viewBox="0 0 500 340" fill="none" xmlns="http://www.w3.org/2000/svg">
           <defs>
+            <style>
+              :root {
+                --cyan1: rgba(70, 242, 232, 0.6);
+                --cyan2: rgba(70, 242, 159, 0.5);
+              }
+              @media (prefers-color-scheme: dark) {
+                :root {
+                  --cyan1: rgba(15, 105, 62, 0.4);
+                  --cyan2:  rgba(10, 92, 88, 0.3);
+                }
+              }
+            </style>
             <radialGradient id="pinkgradient">
-              <stop offset="40%" stop-color="rgba(70, 242, 232, 0.6)" />
-              <stop offset="80%" stop-color="rgba(70, 242, 159, 0.6)" />
+              <stop offset="40%" stop-color="var(--cyan1)" />
+              <stop offset="80%" stop-color="var(--cyan2)" />
             </radialGradient>
           </defs>
           <path d="M318 71C275.6 63 267 -8.99995 172 1.00005C77 11.0001 128 80.0001 93 131C58 182 -2.88123e-05 161.823 -1.52588e-05 224C0 294 97 261 172 291C247 321 314 361 396 326C478 291 505 223 499 150C493 77 371 81 318 71Z" fill="url(#pinkgradient)" />
@@ -13,9 +25,21 @@
       <div class="box green">
         <svg viewBox="0 0 391 348" fill="none" xmlns="http://www.w3.org/2000/svg">
           <defs>
+            <style>
+              :root {
+                --green1: rgba(115, 242, 70, 0.6);
+                --green2: rgba(166, 242, 70, 0.5);
+              }
+              @media (prefers-color-scheme: dark) {
+                :root {
+                  --green1: rgba(44, 116, 18, 0.4);
+                  --green2: rgba(47, 79, 7, 0.3);
+                }
+              }
+            </style>
             <radialGradient id="greengradient">
-              <stop offset="40%" stop-color="rgba(115, 242, 70, 0.6)" />
-              <stop offset="80%" stop-color="rgba(166, 242, 70, 0.6)" />
+              <stop offset="40%" stop-color="var(--green1)" />
+              <stop offset="80%" stop-color="var(--green2)" />
             </radialGradient>
           </defs>
           <path d="M330 5.00001C293.001 -17.1995 276 45 181 55C86 65 51 47 16 98C-19 149 13.5762 167.007 36 225C65 300 39.2128 326.179 118 344C202 363 198 298 280 263C362 228 396 216 390 143C384 70 380 35 330 5.00001Z" fill="url(#greengradient)" />
@@ -24,9 +48,21 @@
       <div class="box yellow">
         <svg viewBox="0 0 426 385" fill="none" xmlns="http://www.w3.org/2000/svg">
           <defs>
+            <style>
+              :root {
+                --yellow1: rgba(242, 184, 70, 0.6);
+                --yellow2: rgba(228, 228, 70, 0.5);
+              }
+              @media (prefers-color-scheme: dark) {
+                :root {
+                  --yellow1: rgba(136, 33, 19, 0.4);
+                  --yellow2: rgba(126, 17, 51, 0.3);
+                }
+              }
+            </style>
             <radialGradient id="yellowgradient">
-              <stop offset="40%" stop-color="rgba(242, 184, 70, 0.6)" />
-              <stop offset="80%" stop-color="rgba(228, 228, 70, 0.6" />
+              <stop offset="40%" stop-color="var(--yellow1)" />
+              <stop offset="80%" stop-color="var(--yellow2)" />
             </radialGradient>
           </defs>
           <path d="M272.556 0C229.407 -1.98527e-06 208.556 28.9508 113.556 38.9508C18.5556 48.9508 50.5556 86 15.5556 137C-19.4444 188 15.5555 232.823 15.5556 295C15.5556 365 147.778 385 228.556 385C300.556 385 353.967 376.204 412.556 309C446.556 270 404.556 180 398.556 107C392.556 34 329.556 2.6226e-06 272.556 0Z" fill="url(#yellowgradient)" />
@@ -35,9 +71,21 @@
       <div class="box purple">
         <svg viewBox="0 0 314 417" fill="none" xmlns="http://www.w3.org/2000/svg">
           <defs>
+            <style>
+              :root {
+                --purple1: rgba(115, 70, 242, 0.4);
+                --purple2: rgba(166, 70, 242, 0.4);
+              }
+              @media (prefers-color-scheme: dark) {
+                :root {
+                  --purple1: rgba(47, 17, 131, 0.3);
+                  --purple2: rgba(53, 6, 91, 0.3);
+                }
+              }
+            </style>
             <radialGradient id="purplegradient">
-              <stop offset="40%" stop-color="rgba(115, 70, 242, 0.4)" />
-              <stop offset="80%" stop-color="rgba(166, 70, 242, 0.4)" />
+              <stop offset="40%" stop-color="var(--purple1)" />
+              <stop offset="80%" stop-color="var(--purple2)" />
             </radialGradient>
           </defs>
           <path d="M271 33C233.06 12.4494 190 -4.42104 129 2C68.0001 8.42104 33.5864 53.6716 13 112C-10.9999 180 7.99956 175.823 7.99958 238C7.99959 308 -2.0002 367 72.9998 397C148 427 211.55 426.444 271 360C339 284 307 245 301 172C295 99 319 59 271 33Z" fill="url(#purplegradient)" />

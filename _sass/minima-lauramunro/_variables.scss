@@ -12,30 +12,26 @@ $spacing-m: 64px;
 
 // Colours
 
-$foreground-lightmode: #1e1e1e;
+// Light mode
+:root {
+    --foreground: #1e1e1e;
+    --background: white;
+    --text: var(--foreground);
+    --blog: #DBFFA6;
+    --post: #B1FADA;
+    --link: #6726C5;
+}
 
+// Dark mode
+@media (prefers-color-scheme: dark) {
+    :root {
+        --foreground: white;
+        --background: #1e1e1e;
+        --blog: #2a0c56;
+        --post: #06544d;
+        --link: #867adf;
+    }
+}
 
-$text-color: $foreground-lightmode;
-$text-color-darkmode: white;
-
-$link-lightmode: #7346F2;
-$link-lightmode: #933FFF;
-$link-darkmode: rgb(198, 189, 255);
-
-$blog-lightmode: #DBFFA6;
-$post-lightmode: #B1FADA;
-
-
-// light mode
-$pink-light: rgb(238, 97, 251);
-$purple-light: rgb(198, 189, 255);
-$blue-light: rgb(146, 199, 249);
-
-// dark mode
-$pink-dark: rgb(193, 0, 163);
-$purple-dark: rgb(132, 47, 255);
-$blue-dark:  rgb(44, 113, 244);
-
-$page-dark: #1e1e1e;
-
-$border-lightmode: 2px solid $foreground-lightmode;
+// UI
+$border: 2px solid var(--foreground);
