@@ -1,8 +1,8 @@
 .visuals-wrapper {
     position: relative;
     padding-bottom: $spacing-m;
-    overflow: hidden;
-    border-bottom: $border-lightmode;
+    // overflow: hidden;
+    border-bottom: $border;
 }
 
 .about {
@@ -35,7 +35,7 @@
               width: 100%;
               height: auto;
           }
-          &.pink {
+          &.cyan {
               grid-area: topright;
               svg {
                   animation: 12s ease-in-out infinite alternate pink;
@@ -49,7 +49,7 @@
               }
           }
           &.yellow {
-              grid-area: middleright;
+              grid-area: middlemiddle;
               animation: 10s ease-in-out infinite alternate yellow;
               }
           &.purple {

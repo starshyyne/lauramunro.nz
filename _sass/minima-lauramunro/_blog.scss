@@ -8,8 +8,8 @@
 
 .page-blog {
     header {
-        background: $blog-lightmode;
-        border-right: $border-lightmode;
+        background: var(--blog);
+        border-right: $border;
 
         @include breakpoint($tablet) {
             max-width: 80%;
@@ -21,7 +21,7 @@
             list-style: none;
             margin-bottom: $spacing-m;
             padding-bottom: $spacing-m;
-            border-bottom: $border-lightmode;
+            border-bottom: $border;
 
             @include breakpoint($desktop) {
                 max-width: 80%;
@@ -60,10 +60,10 @@ article.post {
     }
 
     header {
-        background: $post-lightmode;
+        background: var(--post);
         margin-top: -100px;
         padding-top: 1px;
-        border: $border-lightmode;
+        border: $border;
 
         @include breakpoint($desktop) {
             width: 80%;
@@ -90,9 +90,9 @@ article.post {
 }
 
 .post-navigation {
-    background: rgba($purple-light, 0.5);
-    border-top: $border-lightmode;
-    border-bottom: $border-lightmode;
+    background: var(--post);
+    border-top: $border;
+    border-bottom: $border;
     margin-top: 30px;
     display: flex;
     flex-direction: column;
