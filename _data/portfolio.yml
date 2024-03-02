@@ -65,29 +65,6 @@
   content: |-
     A digital drawing made in Krita in 2020
 
-- id: bones
-  title: Bones Drupal Theme
-  date: 2020-07-22 12:59:13 +1300
-  websiteUrl: https://bones.xequals.co.nz
-  imageUrl: bones-400.png 
-  imageAlt: A screenshot of the Bones website with minimalism design, bright blue headlines and monospaced body copy
-  tags: 
-    - design
-    - front end development
-  content: |-
-    A Drupal 8 theme I designed and built as part of my work with Xequals, created with flexibility and strong typography in mind. This fully responsive theme is open source and available for download. 
-
-- id: demon-slayer
-  title: Demon Slayer - Nezuko fan art
-  date: 2020-07-15 11:59:13 +1300
-  websiteUrl: https://www.behance.net/gallery/100688531/Demon-Slayer-Nezuko
-  imageUrl: demonslayer-400.png
-  imageAlt: Nezuko the main character of the series is drawn sleeping on her side with her black and red hair strewn about her
-  tags: 
-    - Digital drawing
-  content: |-
-    A digital drawing made in Krita from the Anime “Demon Slayer”
-
 - id: nature-space
   title: Nature Space
   date: 2018-10-31 10:26:13 +1300
@@ -111,17 +88,6 @@
     - front-end-development
   content: |-
     A reporting tool for business and government. I was the designer on a refresh of the website, and also built the front-end Opal3 website using Drupal. 
-
-# - id: young-enterprise-scheme-poster
-#   title: Young Enterprise Scheme Poster
-#   date: 2018-10-27 10:26:13 +1300
-#   websiteUrl: http://youngenterprise.org.nz/
-#   imageUrl: yes-400.png
-#   imageAlt: A poster that uses icons and a flow chat to demonstate the agile process
-#   tags: 
-#     - design
-#   content: |-
-#     A poster design to demonstrate an agile workflow for a startup company
 
 - id: nzcer
   title: NZCER
