@@ -74,29 +74,6 @@
   content: |-
     Nature Space was funded by the New Zealand department of conservation to connect different conservation groups accross New Zealand. I was the designer on a refresh of the website, and also worked as the front end developer to implement the design changes to the Drupal 7 site.
 
-- id: opal3
-  title: Opal3
-  date: 2018-10-30 10:26:13 +1300
-  websiteUrl: https://web.archive.org/web/20190124103022/http://www.opal3.com/
-  imageUrl: opal3-400.png
-  imageAlt: The website headline reads 'Reporting made easy' and highlights some of the products clients including NZ local councils
-  tags: 
-    - design
-    - front-end-development
-  content: |-
-    A reporting tool for business and government. I was the designer on a refresh of the website, and also built the front-end Opal3 website using Drupal. 
-
-- id: nzcer
-  title: NZCER
-  date: 2018-10-27 10:26:13 +1300
-  websiteUrl: https://www.nzcer.org.nz/
-  imageUrl: nzcer-400.png
-  imageAlt: A website design for NZCER highlighting different categories of the website
-  tags:
-    - design
-  content: |-
-    The New Zealand Council for Educational Research. I worked as the designer and front end developer to update the website and provide a robust design system for their online catalogue. It was one of my first projects to design and implement a design system back in late 2016. 
-
 - id: inverted-world-book-cover
   title: Inverted World book cover
   date: 2015-08-14 10:26:13 +1300
