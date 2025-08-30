@@ -12,25 +12,27 @@ layout: home
   <div class="portfolio">
   
     <div class="posts">
-      <h2>Portfolio</h2>
-      {% for project in site.data.portfolio %}
-        <div class="post">
-            {%- if project.imageUrl -%}
-              <a class="thumbnail" href="{{ project.websiteUrl }}">
-                <img src="/images/portfolio/{{ project.imageUrl }}" title="{{ project.title }}" alt="{{ project.imageAlt }}"/>
-              </a>
-            {%- endif -%}
-            <div class="post-text">
-              <h3>{{ project.title | escape }}</h3>
-              {{ project.content | markdown }}
-            </div>
-        </div>
-      {%- endfor -%}
+      <h2>Personal art & design</h2>
+      <div class="post-container">
+        {% for thumb in site.data.thumb %}
+          <div class="post">
+              {%- if thumb.imageUrl -%}
+                <div class="thumb-image">
+                  <img src="/images/thumb/{{ thumb.imageUrl }}" title="{{ thumb.title }}" alt="{{ thumb.imageAlt }}"/>
+                </div>
+              {%- endif -%}
+              <div class="post-text">
+                <h3>{{ thumb.title | escape }}</h3>
+                <!-- {{ thumb.content | markdown }} -->
+              </div>
+          </div>
+        {%- endfor -%}
+      </div>
     </div>
   </div>
 
   <div class="home-blog">
-    <h2><a href="/blog/">Blog</a></h2>
+    <h2>Blog</h2>
     {% for post in site.posts limit:3 %}
       <div class="post">
         <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>

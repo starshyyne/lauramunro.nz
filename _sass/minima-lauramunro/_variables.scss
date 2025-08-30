@@ -15,11 +15,12 @@ $spacing-m: 64px;
 // Light mode
 :root {
     --foreground: #1e1e1e;
-    --background: white;
+    --background: #ebebeb;
     --text: var(--foreground);
     --blog: #DBFFA6;
     --post: #B1FADA;
-    --link: #6726C5;
+    --link: #2637FC;
+    --link-hover: #1900A4;
 }
 
 // Dark mode
@@ -29,7 +30,8 @@ $spacing-m: 64px;
         --background: #1e1e1e;
         --blog: #2a0c56;
         --post: #06544d;
-        --link: #867adf;
+        --link: #07E6FF;
+        --link-hover: #2663FE;
     }
 }
 

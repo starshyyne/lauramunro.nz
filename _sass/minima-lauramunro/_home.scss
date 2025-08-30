@@ -2,32 +2,52 @@
     position: relative;
     border-bottom: $border;
     padding: $spacing-s;
-    .post{
-        margin-bottom: $spacing-m;
-        .thumbnail {
-            display: block;
-            flex-shrink: 0.5;
-            align-self: flex-start;
-            img {
-                border: 1px solid #ececec;
-            }
-        }
+    .post-container {
         @include breakpoint($tablet) {
-            display: flex;
-            gap: $spacing-s;
-            flex-direction: row;
-            .thumbnail, .post-text {
-                flex-basis: 50%;
-            }
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: $spacing-m;
         }
         @include breakpoint($desktop) {
-            .thumbnail, .post-text {
-                flex-basis: auto;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+    .post{
+        margin-bottom: $spacing-m;
+        position: relative;
+        overflow: hidden;
+        &:hover {
+            .post-text {
+                z-index: 3;
             }
-            .thumbnail {
-                flex-shrink: 0;
+            .thumb-image {
+                &:before {
+                    content: ' ';
+                    display: block;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: var(--background);
+                    opacity: 0.85;
+                    z-index: 2;
+                }
             }
         }
+    }
+    .thumb-image {
+        img {
+            border: 10px solid var(--foreground);
+            box-sizing: border-box;
+        }
+    }
+    .post-text {
+        position: absolute;
+        width: 50%;
+        min-width: 180px;
+        top: 0;
+        z-index: -1;
     }
 }
 

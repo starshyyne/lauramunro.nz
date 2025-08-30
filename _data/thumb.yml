@@ -1,0 +1,96 @@
+# - id:  # sluggify the title, and use it here as the id.
+#   title: 
+#   date: 2021-08-30 12:59:13 +1300
+#   websiteUrl: 
+#   imageUrl: 
+#   imageAlt: 
+#   tags: # see _data/tags.yml
+#     - design
+#     - digital-drawing
+#     - front-end-development
+#   content: |- # <-- this character allows for multiple lines, as long as they're indented.
+#     Markdown & HTML allowed.
+#     
+#     Multiple-lines supported
+
+- id: coat
+  title: Recycled wool blanket coat
+  date: 2025-08-30 12:59:13 +1300
+  imageUrl: thumb-coat.png 
+  imageAlt: A photograph of a woman wearing a wool coat. It goes to her knees and features pockets and large cream coloured buttons. The coat is made of a rainbow coloured wool blanket fabric. 
+  tags:
+    - design
+
+- id: inverted-world
+  title: Inverted World Book Design
+  date: 2025-08-30 12:59:13 +1300
+  imageUrl: thumb-inverted.png 
+  imageAlt: A mock up of a book design. The front cover shows distorted map lines against a white background, with a bold blue inset border. The title reads "Inverted World" by Christopher Priest. The back cover is the same bold blue as the front border, with white blurb text.
+  tags:
+    - design
+  content: |
+    Book cover design    
+
+- id: linocut
+  title: Linocut design & prints
+  date: 2025-08-30 12:59:13 +1300
+  imageUrl: thumb-lino.png 
+  imageAlt: Two printed linocut designs next to the original linocut. The linocut design is a rabbit in front of the moon with stars, shining against a dark sky with clouds slightly obscuring either side. One print is black, and one is ombre purple and blue.
+  tags:
+    - design
+  content: |
+    Lupus linocut design
+
+- id: origami-type
+  title: Folded origami typeface design
+  date: 2025-08-30 12:59:13 +1300
+  imageUrl: thumb-type.png 
+  imageAlt: the alphabet, in lowercase, in an origami style font. The letters are white against a black background. Each letter is formed by folded paper.
+  tags:
+    - design
+  content: |
+    Origami typeface design    
+
+- id: spirited-away
+  title: Spirited Away watercolour painting
+  date: 2025-08-30 12:59:13 +1300
+  imageUrl: thumb-spirited.png 
+  imageAlt: A watercolour painting of a scene from the Studio Ghibli movie Spirited Away. The scene features the main character Sen, in front of the dragon Haku
+  tags:
+    - design
+
+- id: totoro
+  title: Totoro watercolour painting
+  date: 2025-08-30 12:59:13 +1300
+  imageUrl: thumb-totoro.png 
+  imageAlt: A watercolour painting of a scene from the Studio Ghibli movie My Neighbour Totoro. The scene features two young girls in front of several magical Totoro cat creatures, all yelling at something behind the viewer
+  tags:
+    - design
+
+- id: lupus
+  title: Lupus Tattoo Design
+  date: 2025-08-30 12:59:13 +1300
+  imageUrl: thumb-lupus.png 
+  imageAlt: A white rabbit, overlaid with the Lupus star constellation, sits on top of a black and white photo of the moon
+  tags:
+    - design
+  content: |
+    Tattoo design
+
+- id: read-more
+  title: Read More t-shirt design
+  date: 2025-08-30 12:59:13 +1300
+  imageUrl: thumb-tshirt.png 
+  imageAlt: A close up photograph of the torso of a woman, showing the t-shirt design. The design features a black screen printed book with the words 'Read More' as the title text, on a white t-shirt.
+  tags:
+    - design
+  content: |
+    T-shirt design
+
+- id: kaka
+  title: Kaka digital drawing
+  date: 2025-08-30 12:59:13 +1300
+  imageUrl: thumb-kaka.png 
+  imageAlt: A digital drawing of a New Zealand Kaka bird. It shows the bright colours of the bird, sitting on a branch against a light blue background.
+  tags:
+    - design
