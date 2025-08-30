@@ -18,7 +18,7 @@ layout: home
           <div class="post">
               {%- if thumb.imageUrl -%}
                 <div class="thumb-image">
-                  <img src="/images/thumb/{{ thumb.imageUrl }}" title="{{ thumb.title }}" alt="{{ thumb.imageAlt }}"/>
+                  <img src="/images/thumb/{{ thumb.imageUrl }}" width="600px" height="600px" loading="lazy" title="{{ thumb.title }}" alt="{{ thumb.imageAlt }}"/>
                 </div>
               {%- endif -%}
               <div class="post-text">
